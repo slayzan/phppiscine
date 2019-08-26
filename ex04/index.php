@@ -1,9 +1,3 @@
-<?php
-foreach ($_GET as $i => $value)
-{
-    echo $i.": ".$value."\n";
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,5 +7,11 @@ foreach ($_GET as $i => $value)
     <title>menu</title>
 </head>
 <body>
-    <p>test</p>
+    <nav>
+    <a href= "#">
+    <img src="../day00/logo2.jpg" />
+    <a>
+    <div>
+    <input value="text" alt="uid"> 
+    </nav>
 </body>
