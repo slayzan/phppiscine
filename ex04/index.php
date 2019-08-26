@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>menu</title>
-</head>
-<body>
-    <nav>
-    <a href= "#">
-    <img src="../day00/logo2.jpg" />
-    <a>
-    <div>
-    <input value="text" alt="uid"> 
-    </nav>
-</body>
+<?php
+    require "header.php";
+?>
+<main>
+    <div class="wrapper-main">
+      <section class="section-default">  
+        <p class="login-status">You are logged out!</p>
+        <p class="login-status">You are logged in!</p>
+    </section>
+    </div>
+</main>
+<?php
+    require "footer.php";
+?>
